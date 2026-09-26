@@ -1,0 +1,13 @@
+{
+  "name": "stocksense",
+  "private": true,
+  "scripts": {
+    "backend:install": "npm --prefix backend install",
+    "frontend:install": "npm --prefix frontend install",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "backend:seed": "npm --prefix backend run seed",
+    "backend:build": "npm --prefix backend run build",
+    "frontend:build": "npm --prefix frontend run build"
+  }
+}
